@@ -21,6 +21,12 @@ h1, h2, p, ul {
 
 /* Classes go here ... */
 
+.wrapper_core {
+  margin: 0 auto;
+  padding: 0;
+  background-color: rgb(205, 228, 201);
+}
+
 /* All inner sections that go after the 1st one are with border */
 .topic {
   margin: 0;
