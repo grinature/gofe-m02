@@ -1,0 +1,89 @@
+/* Elements go here ... */
+
+body {
+  margin: 0;
+  padding: 0;
+
+/* Warning ! The background colour from the PSD-image wasn't the only color
+on the background surface. In fact, it was a palette of colours !*/
+  background-color: #f4f5f3; /* e5d9c8 */
+
+  /* Here is the IDEAL original I have to be close to :) */
+  /* I left it here, but it's turned off at the moment ! */
+/*    background-image: url("../images/bg-homework-01.jpeg"); */
+}
+
+/*
+h1, h2, p, ul {
+  color: green;
+}
+*/
+
+/* Classes go here ... */
+
+/* All inner sections that go after the 1st one are with border */
+.topic {
+  margin: 0;
+  padding-top: 20px;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.topic_final {
+  padding: 20px 0;
+}
+
+.person_info {
+  margin-bottom: 20px;
+  font: bold 16px/16px Arial, sans-serif;
+}
+
+.social_address {
+  font-style: italic;
+}
+
+/* IDs go here ... */
+
+#core {
+  margin-top: 50px;
+  margin-left: 270px;
+  padding: 0;
+  width: 1024px;
+
+  /*background-color: #f4f5f3;*/
+  /* The same is in rgb(244, 245, 243) */
+  /* e5d9c8 */
+}
+
+h1#person {
+  text-transform: uppercase;
+  /* It is strange for me, when the Photoshop shows the text element's size
+  as 36px, but the Rectangular Marquee Tool shows (weighs) only 26 pixels */
+  font: bold 36px/36px Arial, sans-serif;
+/*  font: 14pt Arial, sans-serif;*/
+/*  color: yellow;*/
+}
+
+img#pic-bio {
+  margin-top: 10px;
+  margin-left: 140px;
+  border: 1px solid #8f8f8f;
+}
+
+h2#duties {
+  padding: 20px 0;
+  font: 14px/14px Arial, sans-serif;
+  color: #5f5e5d;
+}
+
+
+h2.person_info+ul {
+  margin-bottom: 20px;
+  padding-left: 36px;
+  font: 12px/1.4 Arial, sans-serif;
+}
+
+h2.person_info+p {
+  margin-bottom: 20px;
+  padding-left: 36px;
+  font: 12px/12px Arial, sans-serif;
+}
